@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+.nav ul{
+    list-style-type: none;
+}
+:root{
+    --maincolor :#FB2E86;
+    --mainfont: "Lato";
+    --secandfont:"Josefin Sans";
+    --firstfont: "Agu Display", serif;
+    --secandfnt:"Open Sans", sans-serif;
+    --thirdfont:"Playwrite HR Lijeva";
+
+
+}
+.container{
+    width: calc(100% - 300px);
+   
+    margin:auto; 
+   
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
